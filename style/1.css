@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Alexana';
+    src: url('../font/Alexana Neue.ttf');
+}
+
+
+body {
+	margin: 0px !important;
+}
+.top-header {
+	background: rgb(24,117,240);
+	background: linear-gradient(180deg, rgba(24,117,240,1) 0%, rgba(24,117,240,1) 92%, rgba(20,97,199,1) 100%);
+	height: 10.5vh;	
+}
+.side-bar {
+	position: absolute;
+	top: 0px;
+	height: 100vh;
+	width: 18vw;
+	-webkit-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.31);
+	-moz-box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.31);
+	box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.31);
+}
+.logo {
+	position: absolute;
+	top: 0px;
+	width: 18vw;
+	background-color: #1875f0;
+	height: 18.9vw;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.31);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.31);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.31);
+	z-index: 1000;
+}
+.side-menu {
+	z-index: -1;
+	width: calc(100% - 6px);
+	height: 100vh;
+	border-left: 3px solid #bbbbbd;
+	border-right: 3px solid #bbbbbd;
+}
+.adult-panel {
+	float: left;
+	width: 32.5%;
+	background: rgb(249,249,249);
+	background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(249,249,249,1) 85%, rgba(224,224,224,1) 100%);
+	height: 100vh;
+}
+.child-panel {
+	float: left;
+	width: 67.5%;
+	background-color: #f3f3f3;
+	height: 100vh;
+}
+.footer {
+	width: 100%;
+	height: 9.5vh;
+	background-color: #0337e1;
+	position: absolute;
+	bottom: 0px;
+}
+.header-seperator {
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(90deg, rgba(233,236,243,1) 0%, rgba(233,236,243,1) 33%, rgba(155,128,237,1) 84%, rgba(106,61,234,1) 100%);
+}
+.content {
+	height: 81vh;
+	background: green;
+	width: 82vw;
+	margin-left: 18vw;
+	z-index: -1;
+}
+
+.btn-power {
+	position: absolute;
+	width: 6%;
+	top: 7%;
+	left: 7%;
+}
+.logo-img {
+	width: 80%;
+    left: 12%;
+    top: 13%;
+	position: absolute;
+}
+
+.logo-text1 {
+	color: #fcfcfc;
+	font-family: Alexana;
+	font-size: 1vw;
+}
+.logo-text2 {
+	color: #c7c7c7;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9vw;
+}
+.logo-texts {
+	text-align: right;
+	left: 15%;
+	width: 50%;
+	position: absolute;
+	bottom: 3vh;
+}
+.shopa-img {
+	width: 90%;
+	margin-top: 20vw;
+}
+.piper-img {
+	width: 90%;
+	margin-top: 25vh;
+}
+.shopa-menu {
+	margin-top: 22vw;
+	margin-left: 15%;
+}
+.piper-menu {
+	margin-left: 15%;
+	margin-top: 5vh;
+}
+.menu-title {
+	font-family: Alexana;
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+.nav-menu li{
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #2e3141;
+	font-size: 0.8vw;
+	margin-top: 0.6vh;
+	text-decoration: none;
+}
+.nav-menu a {
+	text-decoration: none;
+}
+.nav-menu {
+	padding-inline-start: 0px;
+}
